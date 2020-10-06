@@ -25,8 +25,9 @@ To install manually, either clone the repository from Github (git clone git://gi
 
 Selfspy is only tested with Python 2.7 and has a few dependencies on other Python libraries that need to be satisfied. These are documented in the requirements.txt file. If you are on Linux, you will need subversion installed for pip to install python-xlib. If you are on Mac, you will not need to install python-xlib at all. Python-xlib is currently a tricky package to include in the requirements since it is not on PyPi.
 ```
-pip install svn+https://python-xlib.svn.sourceforge.net/svnroot/python-xlib/tags/xlib_0_15rc1/ # Only do this step on Linux!
-python setup.py install
+git clone https://github.com/python-xlib/python-xlib.git
+cd ./python-xlib
+sudo https://github.com/python-xlib/python-xlib.git
 ```
 
 You will also need the ``Tkinter`` python libraries. On ubuntu and debian
